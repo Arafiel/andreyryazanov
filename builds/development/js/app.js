@@ -8,11 +8,12 @@
 				templateUrl: 'views/home.html',
 				controller: 'WindowSizeController'
 			})
-			.when('/register', {
-				templateUrl: 'views/register.html',
+			.when('/blog', {
+				templateUrl: 'views/blog.html',
+				controller: 'RedirectController'
 			})
-			.when('/meetings', {
-				templateUrl: 'views/meetings.html',
+			.when('/about', {
+				templateUrl: 'views/about.html'
 			})
 			.otherwise({
 				redirectTo: '/'

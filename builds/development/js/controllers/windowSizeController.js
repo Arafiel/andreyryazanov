@@ -19,7 +19,7 @@
 		angular.element($window).bind("resize", function() {
 			$scope.detectResize();
 			$scope.$apply();
-		})
+		});
 		$scope.detectResize();
 
 	};
